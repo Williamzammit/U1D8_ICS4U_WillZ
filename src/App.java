@@ -21,7 +21,6 @@ public class App {
         firstNames.add(call.enterName(name)[0]);
         lastNames.add(call.enterName(name)[1]);
         for(int i = 0; i < 3; i++){
-        System.out.println(call.enterDate(date)[i]);
         dates.add(call.enterDate(date)[i]);
         }
         

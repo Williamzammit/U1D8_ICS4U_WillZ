@@ -1,4 +1,3 @@
-import java.util.Scanner;
 import java.util.Arrays;
 import java.util.Collections;
 
@@ -6,10 +5,8 @@ import java.util.Collections;
 public class UserInput {
 
     public String[] enterName(String name){
-        int spacePosition;
         
         if(!(commaExists(name))){
-            spacePosition = findSpace(name);
 
             return splitStringsWithoutComma(name, " ");
             
